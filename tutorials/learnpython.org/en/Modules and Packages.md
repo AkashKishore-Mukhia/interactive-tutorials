@@ -201,7 +201,7 @@ When we find the function in the module we want to use, we can read more about i
 
 Packages are namespaces containing multiple packages and modules. They're just directories, but with certain requirements.
 
-Each package in Python is a directory which **MUST** contain a special file called `__init__.py`. This file, which can be empty, indicates that the directory it's in is a Python package. That way it can be imported the same way as a module.
+Each package in Python is a directory which **MUST** contain a special file called `__init__.py`. This file, which can be empty, indicates that the directory it's in is a Python package. That's way it can be imported the same way as a module.
 
 If we create a directory called `foo`, which marks the package name, we can then create a module inside that 
 package called `bar`. Then we add the `__init__.py` file inside the `foo` directory.
